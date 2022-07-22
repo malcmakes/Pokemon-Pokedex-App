@@ -1,0 +1,59 @@
+html {
+    /* border: 2px solid green; */
+    font-size: 2rem;
+    background: linear-gradient(rgb(249, 244, 234), rgb(125, 125, 211)) ;
+    height: 100vh;
+}
+
+header {
+    margin-bottom: 30px;
+    text-align: center;
+    /* border: 2px solid red; */
+}
+
+select {
+    font-size: 1rem;
+}
+
+section {
+    text-align: center;
+}
+
+.section-container {
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid green; */
+
+    padding-left: 10vw;
+    padding-right: 10vw;
+
+}
+
+.column {
+    border: 2px solid rgb(255, 255, 255);
+    flex: 1;
+}
+
+.dog-img {
+    border: 2px gold solid;
+    width: 300px;
+
+}
+
+img {
+    max-width: 900px;
+    max-height: 700px;
+}
+
+span {
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 0.9rem;
+}
+
+#dog-name {
+    font-size: 1rem;
+    text-decoration: none;
+
+}
+
